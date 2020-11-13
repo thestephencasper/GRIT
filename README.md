@@ -1,6 +1,6 @@
-# scasper_GRIT
+# GRIT
 
-Human Genome Recoding ASSistant
+Genome Recoding Informatics Toolbox (GRIT)
 Stephen Casper, scasper@college.harvard.edu
 Mentor: Eriona Hysolli, PI: George Church
 

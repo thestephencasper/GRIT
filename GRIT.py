@@ -1,6 +1,6 @@
 """
 GRIT 1.0
-Human Genome Recoding Assistant
+Genome Recoding Informatics Toolbox
 
 S. Casper
 scasper@college.harvard.edu
@@ -237,7 +237,7 @@ def get_all_site_data(data_dir='data/'):
 
 if __name__ == '__main__':
 
-    parser = argparse.ArgumentParser(description='Human Genome Recoding ASSistant (GRIT).')
+    parser = argparse.ArgumentParser(description='Genome Recoding Informatics Toolbox (GRIT)')
     parser.add_argument('-f', '--function', action='store', dest='function',
                         help="function to run in [\'w\', \'count_total_sites\', \'count_editing_sites\', "
                              "\'find_genes_to_recode\'], or custom")
