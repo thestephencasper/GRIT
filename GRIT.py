@@ -34,6 +34,10 @@ grit_str = '    _____  _____   _____  _______ \n   / ____||  __ \ |_   _||__   _
 
 
 def demo(data_dir='data/'):
+
+    """
+    demos the key functions of GRIT and writes annotated results to a .txt file
+    """
     
     print('\nWelcome to the Genome Recoding Informatics Toolbox (GRIT) Demo!\n')
     print(grit_str)
@@ -131,8 +135,10 @@ def demo(data_dir='data/'):
 
 
 def count_total_sites(data_dir='data/'):  # replicate results for finding all sites in the genome
+    """
+    set parameters and put them into options dict
+    """
 
-    # set parameters and put them into options dict
     cbe_window = (1, 13)  # what editing window to consider an NG CBE to have
     abe_window = (1, 13)  # what editing window to consider an NG ABE to have
     primer_size_range = [200, 220]  # this will make PCR products of 200-220 bases
@@ -153,8 +159,9 @@ def count_total_sites(data_dir='data/'):  # replicate results for finding all si
 
 
 def count_editing_sites(data_dir='data/'):
-
-    # returns the total number of essential sites and the number that can be edited with C/A base editors
+    """
+    returns the total number of essential sites and the number that can be edited with C/A base editors
+    """
 
     # set parameters and put them into options dict
     cbe_window = (1, 13)  # what editing window to consider an NG CBE to have
@@ -189,8 +196,9 @@ def count_editing_sites(data_dir='data/'):
 
 
 def find_genes_to_recode(data_dir='data/'):
-
-    # returns a list of all essential names that are essential
+    """
+    returns a list of all essential names that are essential
+    """
 
     # set parameters and put them into options dict
     cbe_window = (1, 13)  # what editing window to consider an NG CBE to have
@@ -216,8 +224,9 @@ def find_genes_to_recode(data_dir='data/'):
 
 
 def get_all_site_data(data_dir='data/'):
-
-    # returns a list off 24 lists which each give the indices of all TAG sites in the chromosomes
+    """
+    returns a list off 24 lists which each give the indices of all TAG sites in the chromosomes
+    """
 
     all_sites = []
 
@@ -268,6 +277,9 @@ if __name__ == '__main__':
 
     elif args.function == 'find_genes_to_recode':
         output = 'GRIT FIND_GENES_TO_RECODE \n\n' + str(find_genes_to_recode()) + '\n'
+
+    elif args.function == 'get_all_site_data':
+        output = 'GRIT GET_ALL_SITE_DATA \n\n' + str(get_all_site_data()) + '\n'
 
     else:
         raise ValueError('Specified function must be in [\'demo\', \'count_edit_sites\', '
