@@ -283,7 +283,7 @@ if __name__ == '__main__':
 
     else:
         raise ValueError('Specified function must be in [\'demo\', \'count_edit_sites\', '
-                         '\'find_genes_to_recode\'] or custom added function.')
+                         '\'find_genes_to_recode\', \'get_all_site_data\'] or custom added function.')
 
     with open(args.write_file, 'w') as f:
         f.write(output)
