@@ -1,12 +1,16 @@
 # GRIT
 
 Genome Recoding Informatics Toolbox (GRIT)
+
 Stephen Casper, scasper@college.harvard.edu
-Mentor: Eriona Hysolli, PI: George Church
+
+TODO other authors
 
 ## About
 
-This software is meant to be a pythonic platform for working with human genome data, specifically [GRCh38.p13](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.39/). GRIT is meant for human genome recoding of TAA-->TAG using NG base editors, but it can be easily adapted to find a variety of statistics and sequences on chromosomes, genes, and coding DNA sequences. 
+This repository accompanies the paper [TODO]()
+
+The GRIT software is a pythonic platform for working with human genome data, specifically [GRCh38.p13](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.39/). GRIT is meant for human genome recoding of TAA-->TAG using NG base editors, but it can be easily adapted to find a variety of statistics and sequences on chromosomes, genes, and coding DNA sequences. 
 
 ## Installation and Configuration
 
@@ -33,7 +37,7 @@ Then data will need to be gathered. To fetch CRCh38.p13 data, the UNIX command l
 
 ## Using GRIT
 
-GRIT is primarily meant to be a platform for writing your own functions and using them to gather bioinformatic and recoding data on the human genome. However, four functions are build in which demo GRIT features, count editing sites, find genes to recode, and count editable sites. To execute these, run the following.
+GRIT is primarily meant to be a platform for writing your own functions and using them to gather bioinformatic and recoding data on the human genome. However, four functions are build in which demo GRIT features, count editing sites, find genes to recode, count editable sites, and getting genome-wide data on sites. To execute these, run the following.
 
   ```bash
   mkdir results
@@ -41,6 +45,7 @@ GRIT is primarily meant to be a platform for writing your own functions and usin
   python GRIT.py --function=count_total_sites --write_file=results/count_total_sites_out.txt
   python GRIT.py --function=count_editing_sites --write_file=results/count_editing_sites_out.txt
   python GRIT.py --function=find_genes_to_recode --write_file=results/find_genes_to_recode_out.txt
+  python GRIT.py --function=get_all_site_data ----write_file=results/get_all_site_data.txt
   ```
 
 ## Working with GRIT
