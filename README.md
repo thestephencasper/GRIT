@@ -2,9 +2,7 @@
 
 Genome Recoding Informatics Toolbox (GRIT)
 
-Stephen Casper, scasper@college.harvard.edu
-
-TODO other authors
+Correspondence to Stephen Casper, scasper@mit.edu
 
 ## About
 
