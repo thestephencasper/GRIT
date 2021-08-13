@@ -2,9 +2,6 @@
 GRIT 1.0
 Genome Recoding Informatics Toolbox
 
-S. Casper
-scasper@college.harvard.edu
-PI: George Church, mentor: Eriona Hysolli
 """
 
 # see key params at the top of GRIT_util to set

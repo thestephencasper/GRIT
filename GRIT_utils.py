@@ -195,7 +195,6 @@ class Chromosome:
         self.genes = self.get_genes_as_objects()  # get gene objects, and store by overwriting the old self.genes
         self.multifunctional_sites = self.get_multifunctional_sites()  # get dictionary of multifunctional sites
 
-
         # standard initialization
         p3.bindings.setP3Globals({'PRIMER_OPT_SIZE': 20,
                                   'PRIMER_PICK_INTERNAL_OLIGO': 1,
