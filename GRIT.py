@@ -1,7 +1,7 @@
 """
 GRIT 1.0
 Genome Recoding Informatics Toolbox
-
+Anonymous
 """
 
 # see key params at the top of GRIT_util to set
