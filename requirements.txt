@@ -2,6 +2,8 @@ primer3-py
 pandas
 matplotlib
 numpy
-scipy
+sci
+py
+six
 
 # pip install -r requirements.txt
