@@ -43,7 +43,7 @@ GRIT is primarily meant to be a platform for writing your own functions and usin
   python GRIT.py --function=count_total_sites --write_file=results/count_total_sites_out.txt
   python GRIT.py --function=count_editing_sites --write_file=results/count_editing_sites_out.txt
   python GRIT.py --function=find_genes_to_recode --write_file=results/find_genes_to_recode_out.txt
-  python GRIT.py --function=get_all_site_data ----write_file=results/get_all_site_data.txt
+  python GRIT.py --function=get_all_site_data --write_file=results/get_all_site_data.txt
   ```
 
 ## Working with GRIT
