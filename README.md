@@ -2,11 +2,11 @@
 
 Genome Recoding Informatics Toolbox (GRIT)
 
-Correspondence to TODO
+Correspondence to []
 
 ## About
 
-This repository accompanies the paper [TODO]()
+This repository accompanies the paper []
 
 The GRIT software is a pythonic platform for working with human genome data, specifically [GRCh38.p13](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.39/). GRIT is meant for human genome recoding of TAA-->TAG using NG base editors, but it can be easily adapted to find a variety of statistics and sequences on chromosomes, genes, and coding DNA sequences. 
 
